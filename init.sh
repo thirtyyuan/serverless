@@ -6,7 +6,7 @@ yum upgrade
 echo '2. install wget'
 yum install wget
 
-echo '3. install shadowsocks'
-wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
-chmod +x shadowsocks.sh
-./shadowsocks.sh 2>&1 | tee shadowsocks.log
+echo '3. install ssr'
+wget --no-check-certificate https://raw.githubusercontent.com/ShadowsocksR-Live/shadowsocksr-native/master/install/ssrn-install.sh
+chmod +x ssrn-install.sh
+./ssrn-install.sh 2>&1 | tee ssr-n.log
